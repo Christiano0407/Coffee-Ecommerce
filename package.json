@@ -1,0 +1,25 @@
+{
+  "name": "coffee-ecommerce",
+  "version": "1.0.0",
+  "description": "Project of E-commerce",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/Coffee-Ecommerce.git"
+  },
+  "keywords": [
+    "Javascript",
+    "CSS",
+    "HTML",
+    "E-commerce"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/Coffee-Ecommerce/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/Coffee-Ecommerce#readme"
+}
