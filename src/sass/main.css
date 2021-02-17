@@ -94,4 +94,71 @@ body {
   overflow: hidden;
   padding: .5rem;
 }
+
+.home .intro {
+  height: 50rem;
+  background-image: url(../assets/img/mobile/image-hero-coffeepress.jpg);
+  border-radius: 1rem;
+  background-size: cover;
+  margin-bottom: 8rem;
+}
+
+.home .intro .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding-top: 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.home .intro .content h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  /* color: #fefcf7; */
+  color: #333d4b;
+  font-family: var(--font1);
+  margin-bottom: 3rem;
+}
+
+.home .intro .content h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  /*  color: #fefcf7; */
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  font-family: var(--font2);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 3.7rem;
+}
+
+.home .intro .content button {
+  width: 217px;
+  height: 56px;
+  background-color: #0e8784;
+  border-radius: .6rem;
+  border: none;
+  font-family: var(--font1);
+  font-weight: 900;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fefcf7;
+  cursor: pointer;
+}
+
+.home .intro .content button:hover {
+  background-color: #66d2cf;
+}
 /*# sourceMappingURL=main.css.map */
