@@ -1,0 +1,97 @@
+:root {
+  --font1: 'Fraunces', serif;
+  --font2: 'Barlow', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5% 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: #fefcf7;
+  overflow: hidden;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.fixed_position {
+  position: fixed;
+}
+
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: .5rem;
+  margin-top: 2.5rem;
+  height: 5rem;
+  margin-bottom: .5rem;
+}
+
+.nav .nav-items {
+  display: none;
+}
+
+.nav .logo {
+  width: 170px;
+}
+
+.nav .burger {
+  width: 2rem;
+  float: right;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+
+.mobile-nav-dropdown {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #fefcf7));
+  background: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #fefcf7 55.94%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5rem;
+  width: 100%;
+  height: 60rem;
+  text-align: center;
+  position: absolute;
+  z-index: 20;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobile-nav-dropdown a {
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: capitalize;
+  line-height: 2.5rem;
+  font-family: var(--font1);
+  color: #333d4b;
+  margin-bottom: 2.5rem;
+}
+
+.home {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: .5rem;
+}
+/*# sourceMappingURL=main.css.map */
